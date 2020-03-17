@@ -20,11 +20,15 @@ namespace RaceTrackGame
 
         public Label MyLabel;
 
-        /*public Guy(String name, int cash)
+        public Guy()
+        {
+        }
+
+        public Guy(String name, int cash)
         {
             this.Name = name;
             this.Cash = cash;
-        }*/
+        }
 
         public void UpdateLabels()
         {
